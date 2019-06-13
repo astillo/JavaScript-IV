@@ -56,7 +56,7 @@ class ProjectManagers extends Instructor{
         return `${this.name} announces to ${slack} standy times!`
     }
     debugsCode(student, subject){
-        return `${this.name} debugs ${student.name}'s code on ${subject}`
+        return `${this.name} debugs ${student}'s code on ${subject}`
     }
 }
 
